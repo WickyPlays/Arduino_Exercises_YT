@@ -84,13 +84,13 @@ If you find these projects helpful and want to support future builds, you can do
 
 ---
 
-## 📺 YouTube Channel
+## My YouTube Channel
 
 https://www.youtube.com/@WickyPlays3
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 As the projects are growing and the demand for teaching codes are becoming more frequent, I may or may not be able to catch any issues and/or providing clearer information to the audience. This is where you come in to help!
 
@@ -110,3 +110,4 @@ In every scenario when you use my repository for practicing your circuits, pleas
 * All projects are for educational purposes. Always double-check wiring and power requirements before building.
 * Electrics are NOT a joke! Mishandling it without proper instructions will end up in great consequences (burnt components, short-circuit, incorrectly handling power requirements, etc.).
 * Always make sure to know what you are exactly doing. If not, stop right where you are and re-think again.
+* Always have your datasheet ready if you have any components available. The datasheet will be useful if you need any support and/or understand what you should or should not do with it.
