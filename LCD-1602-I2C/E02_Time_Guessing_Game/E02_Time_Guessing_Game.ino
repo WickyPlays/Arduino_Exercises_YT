@@ -13,7 +13,7 @@ const int RIGHT_LED = 6;
 const int BUZZER = 9;
 
 const unsigned long HIDE_TIME = 3000;
-const int MAX_ROUNDS = 1;
+const int MAX_ROUNDS = 3;
 
 int leftScore = 0;
 int rightScore = 0;
