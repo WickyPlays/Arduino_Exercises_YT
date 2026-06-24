@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "http": "^0.0.1-security",
+    "obs-websocket-js": "^5.0.8",
+    "serialport": "^13.0.0",
+    "ws": "^8.21.0"
+  }
+}
