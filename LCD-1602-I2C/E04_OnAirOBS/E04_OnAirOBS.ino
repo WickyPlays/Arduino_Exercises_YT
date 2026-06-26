@@ -18,7 +18,7 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("System Ready");
   lcd.setCursor(0, 1);
-  lcd.print("v1.0");
+  lcd.print("Made by Wicky");
   delay(1500);
   lcd.clear();
   lcd.noBacklight();
@@ -89,14 +89,10 @@ void displayStatus(bool onAir) {
     lcd.backlight();
     lcd.setCursor(0, 0);
     lcd.print("    ON AIR  ");
-    lcd.setCursor(0, 1);
-    lcd.print("    RECORDING   ");
   } 
   else {
     lcd.noBacklight();
     lcd.setCursor(0, 0);
     lcd.print("    STAND BY    ");
-    lcd.setCursor(0, 1);
-    lcd.print("   NOT RECORD  ");
   }
 }

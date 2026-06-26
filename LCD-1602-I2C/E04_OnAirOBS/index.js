@@ -9,6 +9,8 @@ let isRecording = false;
 let initialSynced = false;
 let obsConnectedFlag = false;
 
+let OBS_WS_IP = "ws://192.168.1.7:4455"
+
 function sendToSerial(line) {
   if (!serialPort || !serialPort.writable) return;
   console.log("Sending to serial:", line);
@@ -114,7 +116,7 @@ function attachSerialHandlers() {
 
 async function connectOBS() {
   try {
-    await obs.connect("ws://192.168.1.7:4455");
+    await obs.connect(OBS_WS_IP);
     obsConnectedFlag = true;
     console.log("OBS connected");
 
@@ -157,7 +159,7 @@ obs.on("ConnectionClosed", () => {
 });
 
 console.log("Starting OBS Recording Controller");
-console.log("OBS target: ws://192.168.1.7:4455");
+console.log(`OBS target: ${OBS_WS_IP}`);
 console.log(`Serial port: ${findSerialPort()}`);
 
 connectSerial();
